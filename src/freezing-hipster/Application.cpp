@@ -111,8 +111,7 @@ bool Application::loadMedia() {
 	return success;
 }
 
-SDL_Surface* Application::loadSurface(std::string path)
-{
+SDL_Surface* Application::loadSurface(std::string path) {
 	SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str());
 	if (loadedSurface == NULL)
 	{

@@ -12,9 +12,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Macros.cpp" />
+    <ClCompile Include="Vec2Float.cpp" />
+    <ClCompile Include="Vec2Int.cpp" />
+    <ClCompile Include="Vec3Float.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="Macros.h" />
+    <ClInclude Include="Vec2Float.h" />
+    <ClInclude Include="Vec2Int.h" />
+    <ClInclude Include="Vec3Float.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="VectorList.h" />
+    <ClInclude Include="Vectors.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EA979768-EBBA-476B-8C24-5C134469C019}</ProjectGuid>
